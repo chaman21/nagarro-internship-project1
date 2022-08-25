@@ -8,7 +8,7 @@
     "start": "node app.js",
     "dev": "nodemon bin/www ./app.js -L"
   },
-  "author": "Rochak Sharma",
+  "author": "Chaman Mandloi",
   "license": "ISC",
   "dependencies": {
     "connect-flash": "^0.1.1",
