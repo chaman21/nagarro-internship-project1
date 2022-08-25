@@ -1,1 +1,3 @@
-# nagarro_internship_project1
+# Nagarro Internship Project1
+
+HTML CSS JavaScript Bootstrap Nodejs Express Mongodb
