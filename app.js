@@ -21,7 +21,7 @@ const server = http.createServer(app);
 const io = socketio(server);
 const Chat = require('./models/chat');
 
-mongoose.connect(process.env.MONGOURL)
+mongoose.connect('mongodb+srv://chaman:<password>@cluster0.xvezxv3.mongodb.net/?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true  })
     .then(() => {
         console.log("db connected");
     }).catch((err) => {
