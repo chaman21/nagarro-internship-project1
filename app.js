@@ -21,7 +21,7 @@ const server = http.createServer(app);
 const io = socketio(server);
 const Chat = require('./models/chat');
 
-mongoose.connect('mongodb+srv://chaman:ajGDpbWsBktGjtW6@cluster0.wmskavk.mongodb.net/?retryWrites=true&w=majority/twitter', { useNewUrlParser: true, useUnifiedTopology: true  })
+mongoose.connect('mongodb+srv://chaman:ajGDpbWsBktGjtW6@cluster0.wmskavk.mongodb.net/?retryWrites=true&w=majority/test', { useNewUrlParser: true, useUnifiedTopology: true  })
     .then(() => {
         console.log("db connected");
     }).catch((err) => {
